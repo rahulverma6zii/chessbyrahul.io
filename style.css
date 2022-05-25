@@ -1,0 +1,90 @@
+*{
+  box-sizing: border-box;
+}
+
+
+h1{
+  text-align: center;
+}
+
+.row > div {
+  border:1px solid black;
+  width:12.5%;
+  float: left;
+  height:80px;
+display: block;
+
+}
+
+.row:nth-child(odd) > div:nth-child(odd) {
+background-color: black;
+}
+.row:nth-child(even) > div:nth-child(even) {
+  background-color: black;
+  }
+
+/*
+.row2 > div{
+  border:1px solid black;
+  width:12.5%;
+  float: left;
+  height:80px;
+display: block;
+
+}
+.row3 > div{
+  border:1px solid black;
+  width:12.5%;
+  float: left;
+  height:80px;
+display: block;
+
+}
+.row4 > div{
+  border:1px solid black;
+  width:12.5%;
+  float: left;
+  height:80px;
+display: block;
+
+}
+.row5 > div{
+  border:1px solid black;
+  width:12.5%;
+  float: left;
+  height:80px;
+display: block;
+
+}
+.row6 > div{
+  border:1px solid black;
+  width:12.5%;
+  float: left;
+  height:80px;
+display: block;
+
+}
+.row7 > div{
+  border:1px solid black;
+  width:12.5%;
+  float: left;
+  height:80px;
+display: block;
+
+}
+.row8 > div{
+  border:1px solid black;
+  width:12.5%;
+  float: left;
+  height:80px;
+display: block;
+
+}
+
+*/
+
+.chess{
+margin: auto;
+  width:70%;
+  height: 70%;
+}
